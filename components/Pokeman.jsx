@@ -2,8 +2,6 @@ import React from 'react'
 
 const Pokeman = ({pokeman}) => {
 
-    console.log(pokeman)
-
     if(!pokeman){
         return (
             <div>
