@@ -17,11 +17,13 @@ export const PokemonList = ({pokemon}) => {
             { pokemon.map((pokeman,index)=>{
 
             let id=index+1;
-            return ( 
-            <Link href={'/pokeman?id='+ id}>
-                <div key={index} className="flex flex-col items-center w-full lg:w-1/3 p-4">
 
-                    <div className="imagewrapper p-2 bg-gray-100 rounded-lg w-full">
+            return ( 
+
+            <Link key={id}  href={'/pokeman?id='+ id}>
+                <div className="flex flex-col items-center w-1/2 lg:w-1/4 p-4">
+
+                    <div className="imagewrapper drop-shadow-sm p-2 bg-gray-100 rounded-lg w-full">
                         <img className="w-full " src={pokeman.image} alt={pokeman.name} />
                     </div>
 

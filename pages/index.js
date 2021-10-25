@@ -1,6 +1,4 @@
 import 'tailwindcss/tailwind.css'
-
-import  Layout  from '../components/Layout'
 import { PokemonList } from '../components/PokemonList'
 
 import React from 'react'
