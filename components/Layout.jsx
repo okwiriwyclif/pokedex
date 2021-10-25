@@ -9,7 +9,7 @@ import usePersistedState from 'use-persisted-state-hook'
 
 const Layout = ({title,children}) => {
 
-    const [darkMode,setDarkMode]=usePersistedState(darkMode,true)
+    const [darkMode,setDarkMode]=usePersistedState(true,[])
 
     return (
         <div className={darkMode?'dark':''}>
