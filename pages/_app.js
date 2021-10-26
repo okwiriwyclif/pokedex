@@ -1,4 +1,4 @@
-// import 'tailwindcss/tailwind.css'
+import 'tailwindcss/tailwind.css'
 import React from 'react'
 import Layout from '../components/Layout'
 import '../styles/global.css'
